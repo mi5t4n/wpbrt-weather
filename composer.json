@@ -1,0 +1,16 @@
+{
+  "name": "wpbrt/weather",
+  "description": "WordPress weather plugin.",
+  "authors": [
+    {
+      "name": "wpbrt",
+      "email": "wordpressbiratnagar@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WPBRT\\Weather\\" : "./src"
+    }
+  },
+  "require": {}
+}
