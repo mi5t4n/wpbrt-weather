@@ -8,4 +8,4 @@ vendor/
 *.sql
 *.tar.gz
 *.zip
-./vscode
+/.vscode
