@@ -12,5 +12,20 @@
       "WPBRT\\Weather\\" : "src/"
     }
   },
-  "require": {}
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:mi5t4n/wp_mock.git"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "7.5.20",
+    "10up/wp_mock": "dev-enhance/allow-to-enable-disable-mock-constants-functions"
+  },
+  "require": {},
+  "scripts": {
+    "test": [
+      "./vendor/bin/phpunit"
+    ]
+  }
 }

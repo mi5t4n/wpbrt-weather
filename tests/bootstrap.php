@@ -5,6 +5,15 @@
  * @package Wpbrt_Weather
  */
 
+require_once dirname( dirname( __FILE__ ) ) . '/vendor/autoload.php';
+
+WP_Mock::setUsePatchwork( true );
+WP_Mock::bootstrap( array(
+	'mock_constants' => false,
+	'mock_functions' => false,
+	'mock_hooks'     => false,
+));
+
 $_tests_dir = getenv( 'WP_TESTS_DIR' );
 
 if ( ! $_tests_dir ) {
