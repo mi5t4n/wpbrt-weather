@@ -32,7 +32,7 @@ class Setting {
 	 * @return void
 	 */
 	public function add_admin_menu() {
-		add_options_page(
+		return add_options_page(
 			esc_html__( 'WPBRT Weather', 'wpbrt-weather' ),
 			esc_html__( 'WPBRT Weather', 'wpbrt-weather' ),
 			'manage_options',
